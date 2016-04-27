@@ -18,6 +18,7 @@ namespace BurstdayMachine
 					var amIPumped = Console.ReadLine();
 					if (amIPumped.ToLower() == "y")
 					{
+
 						while (true)
 						{
 							Console.WriteLine("WOOOO! How pumped are you?! Type the number of woos: ");
@@ -42,7 +43,7 @@ namespace BurstdayMachine
 							{
 								Console.WriteLine("Stick with the program, numbers only bro.");
 								continue;
-							} 
+							}
 						}
 					}
 					else if (amIPumped.ToLower() == "m")
@@ -60,9 +61,10 @@ namespace BurstdayMachine
 					}
 					else
 					{
-						Console.WriteLine("YES OR NO PLSKTHNX.");
-					}
+						Console.WriteLine("YA OR MEH PLSKTHNX. START OVER.");
+					} 
 				}
+				
 				else if (myBirthday.ToLower() == "n")
 				{
 					Console.WriteLine("Don't lie.");
